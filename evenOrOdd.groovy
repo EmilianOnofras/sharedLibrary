@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+// vars/evenOrOdd.groovy
 def call(int buildNumber) {
   if (buildNumber % 2 == 0) {
     pipeline {
